@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7f8fa6;
+    padding: 8rem;
+}
+
+section{
+    border-radius: 5px;
+    width: 300px;
+    background-color: #dcdde1;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+span{
+    float: right;
+    margin-right: auto;
+    font-size: 2em;
+    cursor:pointer;
+}
+
+main section div{   
+    padding: 4rem;
+}
+
+h2, button{
+    margin: 3px;
+    border: none;
+    border-radius: 3px;
+    padding: 4 px;
+}
+
+.modal-overlay{
+    font-size: 12px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid green;
+    border-radius: 2px;
+}
+
+.show-modal{
+    display: none;
+}
+
